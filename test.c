@@ -4,6 +4,7 @@ int f(int a,int b){//유클리드 호제법
         return a;
     }
     return f(b,a%b);
+    printf("hihihih");
 }
 int main(void){
     f(30,18);
